@@ -1,0 +1,99 @@
+.main-font {
+    font-family: 'MoYangZhuanJi';
+}
+
+.main-eng-font {
+    font-family: 'Cambay';
+}
+
+.main-tag-font {
+    font-family: 'Cambo';
+}
+
+.main-font-size {
+    font-size: 75px;
+}
+
+.sub-main-font-size {
+    font-size: 55px;
+}
+
+.sub-title-font-size {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.tag-spacing {
+    letter-spacing: 0.3em;
+}
+
+.white-font {
+    color: white;
+}
+  
+  .section1 {
+    padding: 20px;
+  }
+  
+  .section2 {
+    margin-top: 10vh; /* 25% from the top */
+  }
+  
+  .vertical-sets {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+  }
+  
+  .vertical-set {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .vertical-set.left {
+    align-items: flex-start;
+  }
+  
+  .vertical-set.right {
+    align-items: flex-start;
+  }
+  
+  .vertical-set div {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); /* Adjust text orientation */
+  }
+
+  .reverse {
+    transform: rotate(0deg) !important; /* Adjust text orientation */
+  }
+
+  .name {
+    font-size: 38px;
+    margin-right: 5px;
+  }
+
+  .name-title {
+    font-size: 20px;
+  }
+
+  .divider {
+    height: 120px;
+    background-color: white;
+    width: 3px;
+    margin-left: 0px;
+    margin-right: 5px;
+    border-radius: 25px;
+  }
+  
+  @media (min-width: 768px) {
+    /* Adjustments for larger screens */
+    .vertical-sets {
+      max-width: 1200px; /* Adjust based on background image and design */
+      margin: 0 auto;
+      padding: 0 15%; /* More space on the sides for larger screens */
+      margin-bottom: 25px;
+    }
+  }

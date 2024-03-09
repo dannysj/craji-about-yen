@@ -1,8 +1,8 @@
 import './App.css';
 import config from './config/AssetPath';
-import Introduction from './pages/Introduction';
-import InvitationDetails from './pages/InvitationDetails';
-import RSVPDetails from './pages/RSVPDetails';
+import Introduction from './pages/introduction/Introduction';
+import InvitationDetails from './pages/invitationDetails/InvitationDetails';
+import RSVPDetails from './pages/rsvpDetails/RSVPDetails';
 
 function App() {
 

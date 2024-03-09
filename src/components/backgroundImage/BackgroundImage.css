@@ -1,4 +1,3 @@
-/* BackgroundImage.css */
 .background-image {
     /* Common styles that apply to both mobile and desktop */
     display: flex;
@@ -14,7 +13,7 @@
     .background-image {
       height: auto; /* Adjust height based on the image's aspect ratio */
       min-height: 100vh; /* Ensure it covers at least the full viewport height */
-      background-size: auto 100%; /* Resize background image's height to fill the viewport height, width is auto */
+      background-size: cover; /* Resize background image's height to fill the viewport height, width is auto */
     }
   }
   
