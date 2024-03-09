@@ -1,0 +1,28 @@
+/* BackgroundImage.css */
+.background-image {
+    /* Common styles that apply to both mobile and desktop */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease; /* Smooth transition for any background-size changes */
+  }
+  
+  /* Styles for mobile devices */
+  @media (max-width: 768px) {
+    .background-image {
+      height: auto; /* Adjust height based on the image's aspect ratio */
+      min-height: 100vh; /* Ensure it covers at least the full viewport height */
+      background-size: auto 100%; /* Resize background image's height to fill the viewport height, width is auto */
+    }
+  }
+  
+  /* Styles for desktop and larger devices */
+  @media (min-width: 769px) {
+    .background-image {
+      width: 100%;
+      height: 100vh; /* Cover the full viewport height */
+      background-size: cover; /* Cover the entire element's background */
+    }
+  }

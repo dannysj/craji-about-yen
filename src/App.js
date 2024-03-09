@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import config from './config/AssetPath';
+import Introduction from './pages/Introduction';
+import InvitationDetails from './pages/InvitationDetails';
+import RSVPDetails from './pages/RSVPDetails';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <style>{config.globalStyles()}</style>
+      <div className="App">
+        <Introduction />
+        <InvitationDetails />
+        <RSVPDetails />
+      </div>
+    </>
   );
-}
+};
+
 
 export default App;
