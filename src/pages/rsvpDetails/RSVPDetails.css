@@ -13,9 +13,32 @@
 
 .rsvp-font-large {
   font-size: 25px;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .rsvp-spacing {
   justify-content: center;
   gap: 1em;
+}
+
+.darken-background {
+  position: relative;
+}
+
+.darken-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.25); /* Adjust the alpha for darker/lighter */
+  z-index: 1;
+}
+
+.darken-background > * {
+  position: relative;
+  z-index: 2;
 }

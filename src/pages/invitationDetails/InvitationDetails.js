@@ -13,7 +13,7 @@ export default class InvitationDetails extends Component {
         const time = targetDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short' }).toUpperCase().replace("GMT", "UTC");
 
         return (
-            <BackgroundImage imageVar={config.IMAGES.KEY.SECOND}  className='container'>
+            <BackgroundImage imageVar={config.IMAGES.KEY.SECOND}  className=' darken-background container'>
                 <div className='top-spacing'>
                   <CountdownTimer targetDate={targetDate} language="chinese" />
                 </div>

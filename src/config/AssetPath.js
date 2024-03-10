@@ -7,7 +7,8 @@ import fontMoYangZhuanJi from '../assets/font/moyangzhuanji.ttf';
 import fontYingbikaishu from '../assets/font/yingbikaishu.ttf';
 
 const CONFIGURATION = {
-    TARGET_DATE: '2024-12-28T19:00:00+08:00'
+    TARGET_DATE: '2024-12-28T19:00:00+08:00',
+    RSVP_LINK: "https://forms.gle/A3WNwMuMHH7RSyxn9"
 };
 
 const IMAGES = {

@@ -9,10 +9,13 @@ export default class Introduction extends Component {
         const titleArrangementStyle = {
             padding: "5px 0px"
         }
+        const backgroundImageStyleOverride = {
+            backgroundPosition: "calc(50% + 50px) 0"
+        }
         return (
-            <BackgroundImage imageVar={config.IMAGES.KEY.MAIN} className='container'>
+            <BackgroundImage imageVar={config.IMAGES.KEY.MAIN} style={backgroundImageStyleOverride} className='container'>
                 <div className='section section1'>
-                    <div className='main-tag-font sub-title-font-size white-font tag-spacing'># CRAJIFORYEN</div>
+                    <div className='main-tag-font sub-title-font-size white-font tag-spacing'>#CRAJIFORYEN</div>
                 </div>
                 <div className='section section2'>
                     <div className='main-font sub-main-font-size white-font' style={titleArrangementStyle}>好久不见</div>
