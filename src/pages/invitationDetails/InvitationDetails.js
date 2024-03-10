@@ -17,23 +17,26 @@ export default class InvitationDetails extends Component {
                 <div className='top-spacing'>
                   <CountdownTimer targetDate={targetDate} language="chinese" />
                 </div>
-                <div className='text-details'>
-                    <div>{dateStr}</div>
-                    <div>{day}</div>
-                    <div>{time}</div>
+                <div className='invitation-details'>
+                    <div className='text-details'>
+                        <div>{dateStr}</div>
+                        <div>{day}</div>
+                        <div>{time}</div>
+                    </div>
+                    <div className='divider-title'></div>
+                    <div className='text-details'>
+                        <div className='title-text'>FUHOUSE RESTAURANT</div>
+                        <div className='description-text'>41, Lorong Setia Sentral 1, 
+                            <br/>
+                            Pusat Perniagaan Setia Sentral, 
+                            <br/>
+                            14000 Bukit Mertajam, 
+                            <br/>
+                            Pulau Pinang, Malaysia
+                            </div>
+                    </div>
                 </div>
-                <div className='divider-title'></div>
-                <div className='text-details'>
-                    <div>FUHOUSE RESTAURANT</div>
-                    <div>41, Lorong Setia Sentral 1, 
-                        <br/>
-                        Pusat Perniagaan Setia Sentral, 
-                        <br/>
-                        14000 Bukit Mertajam, 
-                        <br/>
-                        Pulau Pinang, Malaysia
-                        </div>
-                </div>
+                
             </BackgroundImage>
         );
     }
