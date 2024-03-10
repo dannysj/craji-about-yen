@@ -1,0 +1,35 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 12px; /* Spacing between boxes */
+  }
+  
+  .time-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #424330;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 2px;
+  }
+  
+  .number {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+
+.countdown-title {
+    font-family: 'Cambay';
+    color: white;
+    letter-spacing: 0.3em;
+    font-size: 18px;
+    margin-bottom: 20px;
+}

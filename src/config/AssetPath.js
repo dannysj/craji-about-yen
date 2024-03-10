@@ -6,6 +6,9 @@ import fontCambay from '../assets/font/cambay.ttf';
 import fontMoYangZhuanJi from '../assets/font/moyangzhuanji.ttf';
 import fontYingbikaishu from '../assets/font/yingbikaishu.ttf';
 
+const CONFIGURATION = {
+    TARGET_DATE: '2024-12-28T19:00:00+08:00'
+};
 
 const IMAGES = {
     BACKGROUND: {
@@ -53,6 +56,7 @@ const IMAGES = {
   `;
   
   const config = {
+    CONFIGURATION,
     IMAGES,
     FONTS,
     globalStyles, // Note: This is now a function
