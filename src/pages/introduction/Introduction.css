@@ -96,4 +96,9 @@
       padding: 0 15%; /* More space on the sides for larger screens */
       margin-bottom: 25px;
     }
+
+    /* adjustment for large screen */
+    .background-image {
+        background-position: center !important;
+    }
   }
