@@ -42,3 +42,11 @@
   position: relative;
   z-index: 2;
 }
+
+  
+@media (min-width: 768px) {
+  /* adjustment for large screen */
+  .background-image {
+      background-position: 0px calc(60%) !important;
+  }
+}
