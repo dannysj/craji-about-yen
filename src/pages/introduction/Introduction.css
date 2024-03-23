@@ -11,11 +11,11 @@
 }
 
 .main-font-size {
-    font-size: 75px;
+    font-size: 70px;
 }
 
 .sub-main-font-size {
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .sub-title-font-size {
@@ -45,7 +45,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 25px;
+    margin-bottom: 5em;
   }
   
   .vertical-set {

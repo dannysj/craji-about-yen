@@ -1,13 +1,13 @@
 .top-spacing {
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 .divider-title {
     height: 3px;
     background-color: white;
     width: 50vw;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 25px;
   }
 
@@ -15,7 +15,7 @@
     font-family: 'Cambay';
     color: white;
     letter-spacing: 0.3em;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
