@@ -16,6 +16,7 @@ export default class Introduction extends Component {
             <BackgroundImage imageVar={config.IMAGES.KEY.MAIN} style={backgroundImageStyleOverride} className='container'>
                 <div className='section section1'>
                     <div className='main-tag-font sub-title-font-size white-font tag-spacing'>#CRAJIFORYEN</div>
+                    <div className='main-font chinese-tag sub-title-font-size white-font tag-spacing'>世纪婚艳</div>
                 </div>
                 <div className='section section2'>
                     <div className='main-font sub-main-font-size white-font' style={titleArrangementStyle}>好久不见</div>
