@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* Adjustments for larger screens */
+  .App {
+    max-width: 90vw; /* Adjust based on background image and design */
+    margin: 0 auto;
+    padding: 0 15%; /* More space on the sides for larger screens */
+  }
+}

@@ -1,24 +1,17 @@
 import './App.css';
-import config from './config/AssetPath';
-import Introduction from './pages/introduction/Introduction';
-import InvitationDetails from './pages/invitationDetails/InvitationDetails';
-import RSVPDetails from './pages/rsvpDetails/RSVPDetails';
-import { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import GroomPage from './pages/groomPage/groom';
+import BridePage from './pages/bridePage/bride';
 
 function App() {
-  useEffect(() => {
-    document.title = "CraJiForYen's Wedding Invitation"
-  }, []);
 
   return (
-    <>
-      <style>{config.globalStyles()}</style>
-      <div className="App">
-        <Introduction />
-        <InvitationDetails />
-        <RSVPDetails />
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<GroomPage />} />
+        <Route path="/bride" element={<BridePage />} /> {/* Add your new page route here */}
+      </Routes>
+    </Router>
   );
 };
 
