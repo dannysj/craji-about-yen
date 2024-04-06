@@ -12,8 +12,9 @@ export default class Introduction extends Component {
         const backgroundImageStyleOverride = {
             backgroundPosition: "calc(50% + 50px) 0"
         }
+        const {imageVar} = this.props;
         return (
-            <BackgroundImage imageVar={config.IMAGES.KEY.MAIN} style={backgroundImageStyleOverride} className='container'>
+            <BackgroundImage imageVar={imageVar} style={backgroundImageStyleOverride} className='container'>
                 <div className='section section1'>
                     <div className='main-tag-font sub-title-font-size white-font tag-spacing'>#CRAJIFORYEN</div>
                     <div className='main-font chinese-tag sub-title-font-size white-font tag-spacing'>世纪婚艳</div>
