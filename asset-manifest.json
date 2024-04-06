@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/craji-for-yen/static/css/main.8ed05cda.css",
-    "main.js": "/craji-for-yen/static/js/main.998230c4.js",
+    "main.css": "/craji-for-yen/static/css/main.54630b9a.css",
+    "main.js": "/craji-for-yen/static/js/main.9f21b0a0.js",
     "static/js/453.f8e929d8.chunk.js": "/craji-for-yen/static/js/453.f8e929d8.chunk.js",
     "static/media/moyangzhuanji.ttf": "/craji-for-yen/static/media/moyangzhuanji.a79e7a7dbc090f68114d.ttf",
     "static/media/yingbikaishu.ttf": "/craji-for-yen/static/media/yingbikaishu.6c6b43be50e98f8d1265.ttf",
@@ -11,12 +11,12 @@
     "static/media/cambay.ttf": "/craji-for-yen/static/media/cambay.b0e53b01d34677a40428.ttf",
     "static/media/cambo.ttf": "/craji-for-yen/static/media/cambo.de6c6f4814bd8db9de89.ttf",
     "index.html": "/craji-for-yen/index.html",
-    "main.8ed05cda.css.map": "/craji-for-yen/static/css/main.8ed05cda.css.map",
-    "main.998230c4.js.map": "/craji-for-yen/static/js/main.998230c4.js.map",
+    "main.54630b9a.css.map": "/craji-for-yen/static/css/main.54630b9a.css.map",
+    "main.9f21b0a0.js.map": "/craji-for-yen/static/js/main.9f21b0a0.js.map",
     "453.f8e929d8.chunk.js.map": "/craji-for-yen/static/js/453.f8e929d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ed05cda.css",
-    "static/js/main.998230c4.js"
+    "static/css/main.54630b9a.css",
+    "static/js/main.9f21b0a0.js"
   ]
 }
