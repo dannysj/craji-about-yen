@@ -12,7 +12,7 @@ import fontYingbikaishu from '../assets/font/yingbikaishu.ttf';
 const CONFIGURATION = {
     BRIDE: {
         TARGET_DATE: '2024-12-21T19:00:00+08:00',
-        RSVP_LINK: "https://forms.gle/A3WNwMuMHH7RSyxn9",
+        RSVP_LINK: "https://docs.google.com/forms/d/19xiiBXinwaXNGC7xQgjhvoKiqF1IEmC1QW06WbqaK0c/viewform?edit_requested=true",
         VENUE: "PUSING PUBLIC Restaurant",
         VENUE_ADDRESS: [
             "59, 61, 57, 63 & 65, JALAN VEERASAMY,", 

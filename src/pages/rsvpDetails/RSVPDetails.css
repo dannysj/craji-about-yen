@@ -21,6 +21,12 @@
 .rsvp-spacing {
   justify-content: center;
   gap: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: env(safe-area-inset-top, 20px);
+  height: 100vh;
+  position: relative;
 }
 
 .darken-background {
@@ -46,7 +52,7 @@
   
 @media (min-width: 768px) {
   /* adjustment for large screen */
-  .background-image {
+  .background-rsvp-image {
       background-position: 0px calc(60%) !important;
   }
 }
