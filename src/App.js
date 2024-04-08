@@ -1,18 +1,26 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import GroomPage from './pages/groomPage/groom';
 import BridePage from './pages/bridePage/bride';
 
+import { useLocation } from 'react-router-dom';
+
 function App() {
 
-  return (
-    <Router>
-      <Routes>
-        <Route path="/craji-for-yen" element={<GroomPage />} />
-        <Route path="/craji-for-yen/bride" element={<BridePage />} /> {/* Add your new page route here */}
-      </Routes>
-    </Router>
-  );
+  let location = useLocation();
+  let query = new URLSearchParams(location.search);
+  let page = query.get('for'); // Assuming a URL parameter ?for=home or ?page=about
+
+  let component;
+  switch (page) {
+    case 'bride':
+      component = <BridePage />
+      break;
+    case 'groom':
+    default:
+      component = <GroomPage />
+  }
+
+  return component;
 };
 
 

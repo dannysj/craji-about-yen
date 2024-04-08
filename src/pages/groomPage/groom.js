@@ -10,10 +10,7 @@ function GroomPage() {
     document.title = "CraJiForYen's Wedding Invitation"
   }, []);
 
-  const backgroundImageStyleOverride = {
-    backgroundPosition: "calc(50% + 50px) 0px !important"
-  } 
-
+  const backgroundImageStyleOverride = "background-shift-left"
   const invitationStyleOverride = "display-under-countdown"
 
   const rsvpStyleOverride = {

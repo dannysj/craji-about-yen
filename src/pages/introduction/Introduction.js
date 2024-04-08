@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import BackgroundImage from '../../components/backgroundImage/BackgroundImage';
-import config from '../../config/AssetPath';
 import './Introduction.css'; 
 import '../../assets/common.css';
 
@@ -11,8 +10,9 @@ export default class Introduction extends Component {
         }
         
         const {imageVar, backgroundStyle} = this.props;
+        const definedClassName = `${backgroundStyle} container`
         return (
-            <BackgroundImage imageVar={imageVar} style={backgroundStyle} className='container'>
+            <BackgroundImage imageVar={imageVar} className={definedClassName}>
                 <div className='section section1'>
                     <div className='main-tag-font sub-title-font-size white-font tag-spacing'>#CRAJIFORYEN</div>
                     <div className='main-font chinese-tag sub-title-font-size white-font tag-spacing'>世纪婚艳</div>

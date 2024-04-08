@@ -51,7 +51,7 @@
 
   
 @media (min-width: 768px) {
-  /* adjustment for large screen */
+  /* adjustment for large screen and */
   .background-rsvp-image {
       background-position: 0px calc(60%) !important;
   }
