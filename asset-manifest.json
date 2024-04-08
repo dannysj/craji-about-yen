@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/craji-for-yen/static/css/main.a51fd1ad.css",
-    "main.js": "/craji-for-yen/static/js/main.428d5835.js",
+    "main.js": "/craji-for-yen/static/js/main.9de4ee94.js",
     "static/js/453.f8e929d8.chunk.js": "/craji-for-yen/static/js/453.f8e929d8.chunk.js",
     "static/media/moyangzhuanji.ttf": "/craji-for-yen/static/media/moyangzhuanji.a79e7a7dbc090f68114d.ttf",
     "static/media/yingbikaishu.ttf": "/craji-for-yen/static/media/yingbikaishu.6c6b43be50e98f8d1265.ttf",
+    "static/media/penangsong.mp3": "/craji-for-yen/static/media/penangsong.61a8adfad213dbe31353.mp3",
+    "static/media/ipohsong.mp3": "/craji-for-yen/static/media/ipohsong.c143444ec7c293c9f643.mp3",
     "static/media/third.jpeg": "/craji-for-yen/static/media/third.f7e255885456bb0e3e32.jpeg",
     "static/media/main.jpeg": "/craji-for-yen/static/media/main.346cf70666746a1e2a0c.jpeg",
     "static/media/third-groom.jpeg": "/craji-for-yen/static/media/third-groom.b2300663fc37b4c01528.jpeg",
@@ -15,11 +17,11 @@
     "static/media/cambo.ttf": "/craji-for-yen/static/media/cambo.de6c6f4814bd8db9de89.ttf",
     "index.html": "/craji-for-yen/index.html",
     "main.a51fd1ad.css.map": "/craji-for-yen/static/css/main.a51fd1ad.css.map",
-    "main.428d5835.js.map": "/craji-for-yen/static/js/main.428d5835.js.map",
+    "main.9de4ee94.js.map": "/craji-for-yen/static/js/main.9de4ee94.js.map",
     "453.f8e929d8.chunk.js.map": "/craji-for-yen/static/js/453.f8e929d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a51fd1ad.css",
-    "static/js/main.428d5835.js"
+    "static/js/main.9de4ee94.js"
   ]
 }
