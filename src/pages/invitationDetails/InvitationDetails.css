@@ -14,7 +14,7 @@
 .text-details {
     font-family: 'Cambay';
     color: white;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     font-size: 15px;
     text-transform: uppercase;
 }
@@ -27,7 +27,7 @@
 }
 
 .title-text {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .display-absolute {
@@ -49,7 +49,7 @@
 }
 
 .description-text {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .darken-background {
@@ -70,4 +70,33 @@
   .darken-background > * {
     position: relative;
     z-index: 2;
+  }
+
+  @media (min-width: 768px) {
+    /* Adjustments for larger screens */
+    .description-text {
+      font-size: 14px;
+    }
+
+
+    .text-details {
+      font-family: 'Cambay';
+      color: white;
+      letter-spacing: 0.2em;
+      font-size: 15px;
+      text-transform: uppercase;
+  }
+
+.title-text {
+  font-size: 25px;
+}
+
+.divider-title {
+  height: 3px;
+  background-color: white;
+  width: 30vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+}
   }
