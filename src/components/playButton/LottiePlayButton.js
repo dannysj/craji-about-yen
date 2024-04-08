@@ -13,11 +13,11 @@ class LottiePlayButton {
     this.animationInstance = null; // Will hold the Lottie animation instance
 
     let songUsed = song1;
-
+    console.log(audioChoice)
     if (audioChoice === "penang") {
-      songUsed = song1;
-    } else {
       songUsed = song2;
+    } else if (audioChoice === "ipoh") {
+      songUsed = song1;
     }
 
     // Initialize the animation

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import LottiePlayButton from './LottiePlayButton'; 
 
-const PlayButton = (audioUrl) => {
+const PlayButton = ({audioUrl}) => {
   useEffect(() => {
     // Initialize the LottiePlayButton when the component mounts
     const playButton = new LottiePlayButton('play-button-container', audioUrl);
