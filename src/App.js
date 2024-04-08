@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<GroomPage />} />
-        <Route path="/bride" element={<BridePage />} /> {/* Add your new page route here */}
+        <Route path="/craji-for-yen" element={<GroomPage />} />
+        <Route path="/craji-for-yen/bride" element={<BridePage />} /> {/* Add your new page route here */}
       </Routes>
     </Router>
   );

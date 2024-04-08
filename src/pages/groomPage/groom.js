@@ -14,10 +14,7 @@ function GroomPage() {
     backgroundPosition: "calc(50% + 50px) 0px !important"
   } 
 
-  const invitationStyleOverride = {
-    position: "relative",
-    paddingTop: "2.5em"
-  };
+  const invitationStyleOverride = "display-under-countdown"
 
   const rsvpStyleOverride = {
     marginBottom: '15em',

@@ -30,6 +30,16 @@
     font-size: 25px;
 }
 
+.display-absolute {
+    position: absolute !important;
+    bottom: 3em;
+}
+
+.display-under-countdown {
+    position: relative !important;
+    padding-top: 2.5em;
+}
+
 .description-text {
     font-size: 14px;
 }

@@ -12,12 +12,13 @@ export default class InvitationDetails extends Component {
         const dateStr = targetDate.toLocaleDateString('en-US', { day: '2-digit', month: 'long', year: 'numeric' }).toUpperCase();
         const time = targetDate.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true, timeZoneName: 'short' }).toUpperCase().replace("GMT", "UTC");
         
+        const className = `${overrideStyle ?? ''} invitation-details`
         return (
             <BackgroundImage imageVar={imageVar}  className=' darken-background container'>
                 <div className='top-spacing'>
                   <CountdownTimer targetDate={targetDate} language="chinese" />
                 </div>
-                <div className='invitation-details' style={overrideStyle}>
+                <div className={className}>
                     <div className='text-details'>
                         <div>{dateStr}</div>
                         <div>{day}</div>
