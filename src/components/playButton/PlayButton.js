@@ -13,11 +13,13 @@ const PlayButton = ({audioUrl}) => {
       };
   
       document.addEventListener('touchstart', playAudioOnce, {once: true});
+    //   document.addEventListener('scroll', playAudioOnce, {once: true});
       document.addEventListener('click', playAudioOnce, {once: true});
     return () => {
       // Optional: clean up when the component unmounts
       playButton.animationInstance.destroy();
       document.removeEventListener('touchstart', playAudioOnce);
+    //   document.addEventListener('scroll', playAudioOnce, {once: true});
       document.removeEventListener('click', playAudioOnce);
     };
   }, []);

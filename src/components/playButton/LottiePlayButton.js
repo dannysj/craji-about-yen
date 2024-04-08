@@ -49,7 +49,16 @@ class LottiePlayButton {
       document.getElementById(elementId).addEventListener('click', () => {
         this.togglePlay();
       });
+
+       // Add an 'enterFrame' event listener to loop manually
+    this.animationInstance.addEventListener('enterFrame', () => {
+      if (this.isPlaying && this.animationInstance.currentFrame >= this.loopFrames.to) {
+        this.animationInstance.goToAndPlay(this.loopFrames.from, true);
+      }
     });
+    });
+
+   
   }
 
   togglePlay() {
@@ -61,28 +70,15 @@ class LottiePlayButton {
     } else {
       this.isPlaying = false;
       this.shouldLoop = false;
-      this.animationInstance.stop(); // Or .pause() if you want to resume from the same spot later
       this.audio.pause();
       this.audio.currentTime = 0; // Reset audio to start
-    }
   }
+}
 
-  playAnimation() {
+  playAnimation = () => {
     this.animationInstance.goToAndPlay(this.loopFrames.from, true);
 
-    // Add an 'enterFrame' event listener to loop manually
-    this.animationInstance.addEventListener('enterFrame', () => {
-      if (this.isPlaying && this.animationInstance.currentFrame >= this.loopFrames.to) {
-        this.animationInstance.goToAndPlay(this.loopFrames.from, true);
-      }
-    });
-  }
-
-  stopAnimation() {
-    this.isPlaying = false;
-    this.shouldLoop = false; // Disable looping, but let the animation continue playing
-    // No need to explicitly call any method to continue playing to the end, 
-    // as removing the loop control will allow the animation to proceed naturally.
+    
   }
 }
 
