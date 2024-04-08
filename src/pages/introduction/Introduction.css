@@ -36,7 +36,7 @@
   }
   
   .section2 {
-    margin-top: 8vh; /* 25% from the top */
+    margin-top: 7vh; /* 25% from the top */
   }
   
   .vertical-sets {
@@ -71,16 +71,16 @@
   }
 
   .name {
-    font-size: 38px;
+    font-size: 28px;
     margin-right: 5px;
   }
 
   .name-title {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .divider {
-    height: 120px;
+    height: 90px;
     background-color: white;
     width: 3px;
     margin-left: 0px;
@@ -106,4 +106,22 @@
     .background-image {
         background-position: center !important;
     }
+
+    .name-title {
+        font-size: 20px;
+    }
+
+    .name {
+        font-size: 38px;
+        margin-right: 5px;
+      }
+    
+      .divider {
+        height: 120px;
+        background-color: white;
+        width: 3px;
+        margin-left: 0px;
+        margin-right: 5px;
+        border-radius: 25px;
+      }
   }
