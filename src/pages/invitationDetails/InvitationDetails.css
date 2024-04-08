@@ -1,5 +1,5 @@
 .top-spacing {
-    padding-top: 8rem;
+    padding-top: 5.5rem;
 }
 
 .divider-title {
@@ -33,6 +33,14 @@
 .display-absolute {
     position: absolute !important;
     bottom: 3em;
+}
+
+.countdown-green {
+  background-color: #424330;
+}
+
+.countdown-blue {
+  background-color: #62839e;
 }
 
 .display-under-countdown {

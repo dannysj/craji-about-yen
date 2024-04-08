@@ -18,7 +18,7 @@ const calculateTimeLeft = (targetDate) => {
   return timeLeft;
 };
 
-const CountdownTimer = ({ targetDate, language }) => {
+const CountdownTimer = ({ targetDate, language, className = '' }) => {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(targetDate));
 
   useEffect(() => {
@@ -36,12 +36,13 @@ const CountdownTimer = ({ targetDate, language }) => {
     seconds: language === 'chinese' ? '秒' : 'Seconds',
   };
 
+  const countdownContainerClassName = `${className} time-square`
   return (
     <div>
         <div className='countdown-title'>COUNTDOWN</div>
         <div className="countdown-container">
             {Object.keys(timeLeft).map((interval, index) => (
-                <div key={index} className="time-square">
+                <div key={index} className={countdownContainerClassName}>
                 <div className="number">{timeLeft[interval]}</div>
                 <div className="text">{units[interval]}</div>
                 </div>

@@ -6,7 +6,7 @@ import './InvitationDetails.css'
 export default class InvitationDetails extends Component {
 
     render() {
-        const { targetDateStr, venueName, venueAddress, imageVar, overrideStyle } = this.props;
+        const { targetDateStr, venueName, venueAddress, imageVar, overrideStyle, countdownTimerStyle = "countdown-green" } = this.props;
         const targetDate = new Date(targetDateStr); // Set your target date and time
         const day = targetDate.toLocaleDateString('en-US', { weekday: 'long' }).toUpperCase();
         const dateStr = targetDate.toLocaleDateString('en-US', { day: '2-digit', month: 'long', year: 'numeric' }).toUpperCase();
@@ -16,7 +16,7 @@ export default class InvitationDetails extends Component {
         return (
             <BackgroundImage imageVar={imageVar}  className=' darken-background container'>
                 <div className='top-spacing'>
-                  <CountdownTimer targetDate={targetDate} language="chinese" />
+                  <CountdownTimer targetDate={targetDate} language="chinese" className={countdownTimerStyle}/>
                 </div>
                 <div className={className}>
                     <div className='text-details'>
