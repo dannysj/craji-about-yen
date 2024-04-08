@@ -62,7 +62,7 @@ class LottiePlayButton {
   }
 
   togglePlay() {
-    if (!this.isPlaying) {
+    if (!this.isPlaying && (this.audio.currentTime == 0 || this.audio.paused || this.audio.ended)) {
       this.isPlaying = true;
       this.shouldLoop = true;
       this.playAudio();
