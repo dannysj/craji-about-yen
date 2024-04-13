@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/craji-for-yen/static/css/main.faf641c6.css",
-    "main.js": "/craji-for-yen/static/js/main.4a952776.js",
-    "static/js/453.f8e929d8.chunk.js": "/craji-for-yen/static/js/453.f8e929d8.chunk.js",
-    "static/media/moyangzhuanji.ttf": "/craji-for-yen/static/media/moyangzhuanji.a79e7a7dbc090f68114d.ttf",
-    "static/media/yingbikaishu.ttf": "/craji-for-yen/static/media/yingbikaishu.6c6b43be50e98f8d1265.ttf",
-    "static/media/penangsong.mp3": "/craji-for-yen/static/media/penangsong.61a8adfad213dbe31353.mp3",
-    "static/media/ipohsong.mp3": "/craji-for-yen/static/media/ipohsong.c143444ec7c293c9f643.mp3",
-    "static/media/third.jpeg": "/craji-for-yen/static/media/third.f7e255885456bb0e3e32.jpeg",
-    "static/media/main.jpeg": "/craji-for-yen/static/media/main.346cf70666746a1e2a0c.jpeg",
-    "static/media/third-groom.jpeg": "/craji-for-yen/static/media/third-groom.b2300663fc37b4c01528.jpeg",
-    "static/media/second.jpeg": "/craji-for-yen/static/media/second.ffab80e62ec19d32c4f7.jpeg",
-    "static/media/second-groom.jpeg": "/craji-for-yen/static/media/second-groom.5b7e882af64f4e7116e1.jpeg",
-    "static/media/first-bride.jpeg": "/craji-for-yen/static/media/first-bride.6dd2df49203b20711240.jpeg",
-    "static/media/cambay.ttf": "/craji-for-yen/static/media/cambay.b0e53b01d34677a40428.ttf",
-    "static/media/cambo.ttf": "/craji-for-yen/static/media/cambo.de6c6f4814bd8db9de89.ttf",
-    "index.html": "/craji-for-yen/index.html",
-    "main.faf641c6.css.map": "/craji-for-yen/static/css/main.faf641c6.css.map",
-    "main.4a952776.js.map": "/craji-for-yen/static/js/main.4a952776.js.map",
-    "453.f8e929d8.chunk.js.map": "/craji-for-yen/static/js/453.f8e929d8.chunk.js.map"
+    "main.css": "/static/css/main.faf641c6.css",
+    "main.js": "/static/js/main.631d9727.js",
+    "static/js/453.f8e929d8.chunk.js": "/static/js/453.f8e929d8.chunk.js",
+    "static/media/moyangzhuanji.ttf": "/static/media/moyangzhuanji.a79e7a7dbc090f68114d.ttf",
+    "static/media/yingbikaishu.ttf": "/static/media/yingbikaishu.6c6b43be50e98f8d1265.ttf",
+    "static/media/penangsong.mp3": "/static/media/penangsong.61a8adfad213dbe31353.mp3",
+    "static/media/ipohsong.mp3": "/static/media/ipohsong.c143444ec7c293c9f643.mp3",
+    "static/media/third.jpeg": "/static/media/third.f7e255885456bb0e3e32.jpeg",
+    "static/media/main.jpeg": "/static/media/main.346cf70666746a1e2a0c.jpeg",
+    "static/media/third-groom.jpeg": "/static/media/third-groom.b2300663fc37b4c01528.jpeg",
+    "static/media/second.jpeg": "/static/media/second.ffab80e62ec19d32c4f7.jpeg",
+    "static/media/second-groom.jpeg": "/static/media/second-groom.5b7e882af64f4e7116e1.jpeg",
+    "static/media/first-bride.jpeg": "/static/media/first-bride.6dd2df49203b20711240.jpeg",
+    "static/media/cambay.ttf": "/static/media/cambay.b0e53b01d34677a40428.ttf",
+    "static/media/cambo.ttf": "/static/media/cambo.de6c6f4814bd8db9de89.ttf",
+    "index.html": "/index.html",
+    "main.faf641c6.css.map": "/static/css/main.faf641c6.css.map",
+    "main.631d9727.js.map": "/static/js/main.631d9727.js.map",
+    "453.f8e929d8.chunk.js.map": "/static/js/453.f8e929d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.faf641c6.css",
-    "static/js/main.4a952776.js"
+    "static/js/main.631d9727.js"
   ]
 }
